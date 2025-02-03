@@ -90,6 +90,7 @@
     }
     .photo{
         height: 250px;
+        background: url(images/{59A592A3-16F8-42C9-BEB8-602B6158FE86}.png) no-repeat ;
     }
     .text{
         padding: 150px;
@@ -98,6 +99,15 @@
         flex-direction: column;
         padding: 25px;
         padding-top: 60px;
+    }
+    .text-inner{
+        backdrop-filter: blur(19px);
+        padding: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 0px;
+        border: none;
+        box-shadow: none;
     }
     .t1{
         color:black;
@@ -123,5 +133,8 @@
         justify-self: end;
         text-align: end;
     
+    }
+    .social i ,.social lable{
+        color: gray;
     }
 }
