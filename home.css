@@ -1,0 +1,127 @@
+.home-page{
+    background: url(images/{59A592A3-16F8-42C9-BEB8-602B6158FE86}.png) no-repeat ;
+    background-size: 100% 100%;
+    /* background-color: red; */
+    width: 100;
+    min-height: 80vh;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text{
+    padding: 150px;
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 180px;
+    
+}
+.text-inner{
+    backdrop-filter: blur(19px);
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.276);
+    box-shadow: 0px 0px 60px rgba(31, 30, 30, 0.639);
+}
+.t1{
+    color:black;
+    font-weight: bold;
+    padding-right: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    z-index: 0;
+}
+.t2{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 60px;
+    display: flex;
+    justify-content: end;
+    
+}
+.t3{
+    color: black;
+    /* width: 400px; */
+    display: flex;
+    justify-self: end;
+    text-align: end;
+
+}
+.social-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 40px;
+    color: white;
+}
+.checkout-text{
+    padding-left: 50px;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    color: white;
+}
+.social a{
+    color: white;
+    font-size: 35px;
+}
+@media (max-width:700px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .home-page{
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 2fr;
+        min-height: 100%;
+    }
+    .photo{
+        height: 250px;
+    }
+    .text{
+        padding: 150px;
+        background-color: wheat;
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        padding-top: 60px;
+    }
+    .t1{
+        color:black;
+        font-weight: bold;
+        padding-right: 5px;
+        font-size: 15px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+    }
+    .t2{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 30px;
+        display: flex;
+        justify-content: end;
+        
+    }
+    .t3{
+        color: rgb(67, 67, 67);
+        font-size: 13px;
+        display: flex;
+        justify-self: end;
+        text-align: end;
+    
+    }
+}

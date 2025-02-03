@@ -1,0 +1,87 @@
+header{
+    width: 100;
+    height: 60px;
+    background-color: white;
+    padding: 10px;
+    justify-self: stretch;
+    z-index: 100;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-self: center;
+    justify-self: center;
+    z-index: 100;
+
+}
+.school-about,.school-event{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    align-self: center;
+    justify-self: stretch;
+    z-index: 100;
+
+    
+}
+.img-div{
+    background-color:WHITE;
+    width: 100%;
+    height: 490%;
+    border-radius: 50%;
+    position: relative;
+    top: -190px;
+    z-index: 100;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.home,.about,.contact,.gallery,.faculty,.reachus{
+    padding: 15px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+.home:active,.about:active,.contact:active,.gallery:active,.faculty:active,.reachus:active{
+    background-color: rgb(130, 230, 68);  
+}
+
+
+@media (max-width:700px) {
+    body{
+        width: 100%;
+    }
+    
+nav{
+    width: 100%;
+    font-size: 11px;
+}
+header{
+    width: 100%;
+}
+.img-div{
+    background-color:white;
+    width: 110%;
+    height: 160%;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+}
+.home,.about,.contact,.gallery,.faculty,.reachus{
+ 
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+}
