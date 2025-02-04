@@ -1,0 +1,88 @@
+.about-page{
+    height: 75vh;
+    width: 100;
+    background-color:white;
+    padding: 50px;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    border-radius: 12px;
+    box-shadow: 0 0 20px black;
+
+}
+.about-1{
+    padding-left: 20px;
+    border-bottom: 3px solid gray;
+}
+h1{
+    font-size: 50px;
+    width: 800px;
+    font-family: "Titan One", serif;
+    text-align: start;
+}
+.about-2{
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+.about-heading{
+    border-bottom: 1px solid rgba(237, 228, 228, 0.511);
+    width: 300px;
+    color: green;
+    font-family: Berkshire Swash;
+    font-size: 25px;
+    font-weight: none;
+    padding: 2px;
+}
+.about-2 p{
+    font-style: italic;
+}
+
+@media (max-width: 700px) {
+    .about-page{
+        height: 100%;
+        width: 80;
+        background-color:white;
+        padding: 0px;
+        margin: 20px;
+        display: grid;
+        grid-template-rows: 1fr 8fr;
+        border-radius: 12px;
+        box-shadow: 0 0 20px black;
+        justify-self: center;
+    
+    }
+    .about-1{
+        padding-left: 20px;
+        border-bottom: 3px solid gray;
+    }
+    h1{
+        padding-top: 30px;
+        font-size: 20px;
+        width: auto;
+        font-family: "Titan One", serif;
+        text-align: start;
+    }
+    .about-2{
+        padding-left: 10px;
+        padding-right: 20px;
+        display: grid;
+        grid-template-columns:none;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 30px;
+    }
+    .about-heading{
+        border-bottom: 1px solid rgba(237, 228, 228, 0.511);
+        width: auto;
+        color: green;
+        font-family: Berkshire Swash;
+        font-size: 25px;
+        font-weight: none;
+        padding: 2px;
+    }
+    .about-2 p{
+        font-style: italic;
+        
+    }
+}

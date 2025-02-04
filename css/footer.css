@@ -1,0 +1,109 @@
+footer{
+    width: 100;
+    height: 50vh;
+    background-color: rgb(76, 76, 76);
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+.f-div{
+    justify-self: center;
+    padding: 20px;
+    padding-bottom:0 ;
+}
+.f-div p1{
+    color: white;
+    font-size: 26px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    letter-spacing: 0.12cm;
+    text-align: center;
+}
+.f-div-2{
+    border-bottom: 2px solid white;
+}
+ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: none;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin: 20px;
+}
+ul a:hover{
+    color: red;
+}
+ul  li{
+    padding-top: 20px;
+}
+.dev-info{
+    color: white;
+    justify-self: center;
+    padding: 20px;
+    font-size: 20px;
+    align-self: center;
+}
+.dev-info a{
+    color: white;
+    font-family: Signika Negative;
+}
+.dev-info a:hover{
+    color: black    ;
+}
+@media (max-width:700px) {
+
+    footer{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(76, 76, 76);
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+}
+.f-div{
+    justify-self: center;
+    padding: 20px;
+    padding-bottom:0 ;
+}
+.f-div p1{
+    color: white;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    letter-spacing: 0.12cm;
+    text-align: center;
+}
+.f-div-2{
+    border-bottom: 2px solid white;
+}
+ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: none;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+ul a:hover{
+    color: red;
+}
+ul  li{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.dev-info{
+    color: white;
+    justify-self: center;
+    padding: 20px;
+    padding-left: 100px;
+    font-size: 20px;
+    align-self: center;
+    justify-content: center;
+}
+.dev-info a{
+    color: white;
+    font-family: Signika Negative;
+}
+.dev-info a:hover{
+    color: black    ;
+}
+}

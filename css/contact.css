@@ -1,0 +1,24 @@
+.contact-page{
+    height: 75vh;
+    width: 100;
+    background-color:white;
+    padding: 50px;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    border-radius: 12px;
+    box-shadow: 0 0 20px black;
+}
+@media (max-width:700px){
+    .contact-page{
+        height: 75vh;
+        width: devicewidth;
+        background-color:white;
+        /* padding: 50px; */
+        /* margin: 20px; */
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+        border-radius: 12px;
+        box-shadow: 0 0 20px black;
+    }
+}
